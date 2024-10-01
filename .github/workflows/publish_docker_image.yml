@@ -22,4 +22,4 @@ jobs:
           rev=$(git rev-parse --short HEAD)
           docker build . -t myawesomeimage
           docker tag myawesomeimage 244530008913.dkr.ecr.eu-west-1.amazonaws.com/didrichsen:$rev
-          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/didrichsen:$rev
+          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/myawesomerepo:$rev
